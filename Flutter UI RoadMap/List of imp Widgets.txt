@@ -1,0 +1,195 @@
+1. Structural Widgets:
+
+
+Scaffold: Provides a framework for implementing basic material design visual layout structure.
+
+Container: A versatile widget used for layout, padding, margins, and alignment.
+
+Column: Arranges children widgets vertically.
+
+Row: Arranges children widgets horizontally.
+
+Stack: Allows overlapping of widgets (like layers).
+
+Center: Centers its child widget within itself.
+
+Padding: Adds padding around a widget.
+
+Expanded: Expands a child widget to fill available space within a Column or Row.
+
+ListView: Scrollable list of widgets arranged linearly.
+
+GridView: Displays widgets in a grid pattern.
+
+SizedBox: A box with a fixed size, useful for spacing.
+
+SingleChildScrollView: Makes a widget scrollable when its content overflows.
+
+Card: A material design card that can contain any child widget.
+
+AppBar: A material design app bar.
+
+BottomNavigationBar: A bar at the bottom for navigation between pages.
+
+Drawer: A slide-in menu from the side of the screen.
+
+
+2(1). Input & Interaction Widgets:
+
+
+
+TextField: A single-line text input.
+
+TextFormField: A FormField that contains a TextField.
+
+Form: Groups multiple input fields and helps with form validation.
+
+2(2). Button Widgets:
+
+
+
+ElevatedButton: A material design elevated button.
+
+TextButton: A material design text button.
+
+OutlinedButton: A material design outlined button.
+
+IconButton: A button with an icon.
+
+GestureDetector: Detects gestures like taps, drags, and swipes.
+
+Switch: A material design switch.
+
+Checkbox: A material design checkbox.
+
+Slider: A material design slider for selecting a value.
+
+Radio: A material design radio button.
+
+DropdownButton: A material design dropdown list of items.
+
+
+3. Text & Styling Widgets:
+
+
+
+Text: Displays a string of text with optional styling.
+
+RichText: Displays a text with multiple styles (rich formatting).
+
+Icon: Displays an icon.
+
+Image: Displays an image from assets, network, or file.
+
+CircleAvatar: A circular widget, often used for profile pictures.
+
+Chip: A material design chip for showing a tag or an action.
+
+Divider: A thin horizontal line used as a separator.
+
+Spacer: Creates a flexible space to adjust spacing between widgets.
+
+
+4. State Management & Navigation Widgets:
+
+
+
+StatefulWidget: A widget that has mutable state.
+
+StatelessWidget: A widget with immutable state.
+
+FutureBuilder: Widget that builds itself based on the latest snapshot of interaction with a Future.
+
+StreamBuilder: Widget that builds itself based on the latest snapshot of interaction with a Stream.
+
+Navigator: Handles the app's stack of pages.
+
+PageView: A scrollable list that works page by page.
+
+
+5. Animation Widgets:
+
+
+
+AnimatedContainer: A container that can animate its properties.
+
+FadeTransition: Fades a widget in and out.
+
+ScaleTransition: Animates the scaling of a widget.
+
+RotationTransition: Rotates a widget.
+
+SlideTransition: Animates the position of a widget.
+
+Hero: A widget that animates between screens.
+
+AnimatedBuilder: A general-purpose widget for building animations.
+
+
+6. Media & Display Widgets:
+
+
+
+VideoPlayer: Plays video content.
+
+AudioPlayer: Plays audio content (requires package).
+
+Lottie: Displays Lottie animations (requires package).
+
+WebView: Displays web content (requires package).
+
+
+7. Dialog & Modal Widgets:
+
+
+
+AlertDialog: A material design alert dialog.
+
+BottomSheet: A bottom sheet that slides up from the bottom of the screen.
+
+SnackBar: A material design snack bar for showing brief messages.
+
+
+8. Advanced Layout Widgets:
+
+
+
+CustomScrollView: A scrollable widget that creates custom scroll effects.
+
+SliverAppBar: A material design app bar that can expand and collapse with a scrolling effect.
+
+SliverList: Displays a scrollable list with custom behavior.
+
+SliverGrid: Displays a scrollable grid with custom behavior.
+
+Wrap: A widget that wraps its children into multiple rows or columns.
+
+
+
+9. Networking Widgets:
+
+
+
+FutureBuilder: Useful for asynchronous API calls.
+
+StreamBuilder: Used for handling real-time data (e.g., WebSockets).
+
+Image.network: Displays an image from the network.
+
+
+10. Other Useful Widgets:
+
+
+
+ClipRRect: Clips its child with a rounded rectangle.
+
+FittedBox: Scales and positions its child within itself according to a fit.
+
+Opacity: Changes the opacity of its child widget.
+
+Transform: Applies a transformation (rotate, scale, translate, etc.) to its child.
+
+Draggable: Makes a widget draggable.
+
+ReorderableListView: Allows items in a list to be reordered by dragging.
+
